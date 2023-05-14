@@ -1,0 +1,72 @@
+
+.account-settings-page {
+    display: flex;
+    /* border: 1px solid pink; */
+}
+
+.account-settings-content {
+    padding: 20px 1.5em 1.5em 1.5em;
+    text-align: left;
+    flex: 1 0;
+    max-width: 20em;
+}
+
+.account-settings-content h2 {
+    margin: 0 0 14px 0;
+}
+
+.info-wrapper {
+    /* border: 1px solid black; */
+    padding: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    /* max-width: 300px; */
+}
+
+.info-wrapper label {
+    margin-bottom: .5em;
+    font-weight: bold;
+    color: rgba(0,0,0,0.45);
+}
+
+.info-wrapper p {
+    margin: .5em 0;
+}
+
+.info-wrapper input {
+    margin: .5em 0 .4em 0;
+    border: none;
+    font-size: 1em;
+    border-bottom: 1px solid blue;
+}
+
+.info-wrapper input:focus {
+    outline: none;
+}
+
+.info-wrapper button {
+    padding: 3px 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.info-wrapper button:hover {
+    color: rgba(0,0,0,0.45);
+    transition: .3s;
+}
+
+.info-label-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-wrapper {
+    display: flex;
+    position: absolute;
+    top: .5em;
+    right: .5em;
+}

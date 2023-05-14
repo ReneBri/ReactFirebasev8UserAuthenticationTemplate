@@ -1,0 +1,35 @@
+.navbar {
+    background: grey;
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* width: 100%; */
+}
+
+.nav-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 45px;
+}
+
+.nav-content-wrapper a {
+    text-decoration: none;
+}
+
+.nav-content-wrapper a:visited {
+    color: black;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 7px;
+}
+
+.user-auth-link {
+    cursor: pointer;
+}

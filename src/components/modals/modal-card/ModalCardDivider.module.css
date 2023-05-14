@@ -1,0 +1,24 @@
+
+.modal-card-divider {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-card-divider hr {
+    border: none;
+    border-top: 1.5px solid rgba(0,0,0,0.45);
+    width: 100%;
+    /* overflow: visible; */
+}
+
+.modal-card-divider p {
+    margin-top: -19px;
+    background-color: white;
+    width: 40px;
+    display: block;
+
+}

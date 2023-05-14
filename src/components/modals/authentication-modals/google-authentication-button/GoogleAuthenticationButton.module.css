@@ -1,0 +1,23 @@
+
+.google-authentication-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;;
+    border: 1px solid rgba(0,0,0,0.45);
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.45);
+    padding: 8px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: -16px;
+}
+
+.google-authentication-button:hover {
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.45);
+    transition: .3s;
+}
+
+.google-authentication-button .google-icon {
+    margin-right: 8px;
+}
