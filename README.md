@@ -4,7 +4,7 @@
 
 This is a user login / authentication template built using React and Firebase Authentication v8.
 
-Live link to a demo can be found <a href="https://notesapp-4d3bb.web.app/" target="_blank">here</a>.
+Live link to a demo can be found [here](https://reactfirebasev8authtemplate.web.app){:target="_blank"}.
 
 I have build this for multiple reasons:
 * To lower the time it takes to build app ideas in the future. Especially now to be able to approach others to work together on group projects.
@@ -14,6 +14,18 @@ I have build this for multiple reasons:
 
 Please, if you come across this and have any feedback or ideas for improvement, I would be happy to hear from you.
 
+**GETTING STARTED:**
+
+***Getting started with this template is really simple:***
+1. Clone this repo locally
+2. Run 'npm i' in that directory
+3. Create a new Firebase project
+4. Inside the new Firebase project, create a new web app
+5. Get the web app config credentials and paste them into the commented space in the './config/firebaseConfig.js'
+6. In this projects Firebase console enable Authentication
+7. Inside the Firebase consoles' Authentication section enable providers 'sign-in with username and password' & 'Google'
+8. npm run start & test
+
 ***Covered so far in the documentation is:***
 1. Authentication Hooks
 2. Routeing
@@ -22,19 +34,6 @@ Please, if you come across this and have any feedback or ideas for improvement, 
 
 More documentation to come over the next week...
 
-## OVERVIEW
-
-**GETTING STARTED:**
-
-Getting started with this template is really simple:
-1. Make a pull request
-2. Run 'npm i' in that directory
-3. Create a new Firebase project
-4. Inside the new Firebase project, create a new web app
-5. Get the web app config credentials and paste them into the commented space in the './config/firebaseConfig.js'
-6. In this projects Firebase console enable Authentication
-7. Inside the Firebase consoles' Authentication section enable providers 'sign-in with username and password' & 'Google'
-8. npm run start & test
 
 ## AUTHENTICATION HOOKS
 
